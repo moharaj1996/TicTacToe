@@ -21,19 +21,6 @@ def winner(A, player, symbol):
         print(player + " Wins!")
         return True
 
-# def winner(A, player, symbol):
-#     for i in range(len(A) - 1):
-#         for j in range(len(A) - 1):
-#
-#             if (A[i][j] == A[i][j + 1] == symbol or
-#                     A[i][j] == A[i + 1][j] == symbol or
-#                     A[i][j] == A[i + 1][j + 1] == symbol):
-#                 break
-#
-#     print(player + " Wins!")
-#     return True
-
-
 def display_board(A):
     d = 1
     for a, b, c in A:
